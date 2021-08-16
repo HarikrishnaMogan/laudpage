@@ -16,6 +16,9 @@
     text-decoration: none;
     margin-right:20px;
 }
+.link:hover{
+    text-decoration: underline;
+}
 .linkcontainer{
     max-width: 100%;
     margin:auto;
@@ -76,6 +79,15 @@
      position:relative;
      color:white;
      font-weight: bold;
+}
+.learn:active{
+    background-color: rgb(121, 118, 118);
+}
+.video:active{
+    background-color: rgb(133, 27, 8);
+}
+.book:active{
+    background-color: rgb(153, 79, 9);
 }
 .learn{
     background-color: rgb(201, 196, 196);
